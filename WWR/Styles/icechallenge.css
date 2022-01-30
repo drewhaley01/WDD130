@@ -2,5 +2,8 @@ body{background-color: pink;text-align: center;}
 
 h1{color:white;}
 p1{color:white;}
+p2{font-weight: bold;}
 img{width: 15%}
-ol li{text-align: center;}
+h1:hover{color:black}
+ol{margin-left: auto;
+margin-right: auto;}
