@@ -1,42 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Permanent+Marker&display=swap');
+
 ::content{width:1600px; margin: 0 auto;}
-nav a{text-align: center;}
-#hero-msg h1{text-align: center;}
-#hero-msg h4{text-align: center;}
-.button-box{text-align: center;}
-main section{text-align: center;}
+header{
+    background-color: #2b2c28;
+}
+body{
+    font-family: "Mochiy Pop P One";
+    background-color: #2b2c28;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+.home-title{
+    font-family: "Permanent Marker","Rock Salt", sans-serif;
+    font-size: 2em;
+    color: #339989;
+    margin-top: 10px;
+}
+.book{
+    font-size: 18px;
+    background-color: #2b2c28;
+    color: #339989;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book:hover{
+    background-color: #131515;
+    color: #79d2e1;
+}
+.join{
+    font-size: 18px;
+    background-color: #2b2c28;
+    color: #339989;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.join:hover{
+    background-color: hsl(180, 5%, 8%);
+    color: #79d2e1;
+}
+nav a{
+    text-align: center;
+    color: #339989;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover{
+    background-color: #131515;
+    color: #79d2e1;
+
+}
+footer a{
+    color: #339989;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #79d2e1;
+}
+
+footer{
+    background-color: #2b2c28;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+#hero-msg h1{
+    text-align: center;
+}
+#hero-msg h4{
+    text-align: center;
+}
+.button-box{
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
 #background{
     height: 725px;
     background-color: #131515;
 }
-body{background-color: #2b2c28;}
-header{background-color: #2b2c28;}
-nav a:hover{background-color: #131515;}
-.book{background-color: #2b2c28;}
-.join{background-color: #2b2c28;}
-.book:hover{background-color: #131515;}
-.join:hover{background-color: #131515;}
-.msg{background-color: #2b2c28;}
-footer{background-color: #2b2c28;}
-
-nav a{color: #339989;}
-nav a:hover{color: #79d2e1;}
-.home-title{color: #339989;}
-h4{color: #339989;}
-.book{color: #339989;}
-.join{color: #339989;}
-.book:hover{color: #79d2e1;}
-.join:hover{color: #79d2e1;}
-.msg h2{color: #339989;}
-.msg p{color: #339989;}
-footer h3{color: #339989;}
-footer a{color: #339989;}
-footer a:hover{color: #79d2e1;}
-
-.logo{width: 80px;}
-.icon{width: 80px;}
-#heroImg{width: 100%;}
-
-nav a{text-decoration: none;}
-.book{text-decoration: none;}
-.join{text-decoration: none;}
-footer a{text-decoration: none;}
+.msg{
+    background-color: #2b2c28;
+    line-height: 1.5em;
+    padding: 35px;
+}
+h4{
+    color: #339989;
+}
+.msg h2{
+    color: #339989;
+}
+.msg p{
+    color: #339989;
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+footer h3{
+    color: #339989;
+}
+.logo{
+    width: 80px;
+}
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
+#heroImg{
+    width: 100%;
+}
+h2 {
+    margin: 0;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.riversCard{
+    margin: 200px 0;
+}
+.campingCard{
+    margin: 200px 0;
+}
+.rapidsCard{
+    margin: 200px 0;
+}
+.cardImg{
+    border: 10px solid;
+    border-color: #131515;
+}
+main section img{
+    box-sizing: border-box;
+}
