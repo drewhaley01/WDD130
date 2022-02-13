@@ -40,7 +40,7 @@ body{
     border-radius: 5px;
 }
 .join:hover{
-    background-color: hsl(180, 5%, 8%);
+    background-color: #131515;
     color: #79d2e1;
 }
 nav a{

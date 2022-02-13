@@ -1,0 +1,26 @@
+::content{
+    width: 1600px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+header{
+    border-bottom: #999999;
+}
+#board{
+    display: grid;
+    grid-template-rows: repeat(6,1fr);
+    grid-gap: 5px;
+    box-sizing: border-box;
+}
+.whiteBox{
+    display: grid;
+    grid-column: repeat(5,1fr);
+    border-color: #999999;
+    border-width: 2px;
+    border-style: solid;
+    margin: 0 auto;
+    height: 10%;
+    width: 10%;
+}
