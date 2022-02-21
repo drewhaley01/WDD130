@@ -96,6 +96,7 @@ body{
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    margin-left: 100px;
 }
 .book:hover{
     background-color: #131515;
@@ -124,6 +125,10 @@ nav a:hover{
     background-color: #131515;
     color: #79d2e1;
 
+}
+nav {
+    display: flex;
+    justify-content: space-around;
 }
 footer a{
     color: #339989;
@@ -197,6 +202,7 @@ h2 {
 }
 footer .social img{
     padding-top: 15px;
+    width: 50px;
 }
 .riversCard{
     margin: 200px 0;
@@ -213,4 +219,9 @@ footer .social img{
 }
 main section img{
     box-sizing: border-box;
+}
+#logoLink{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
