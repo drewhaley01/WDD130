@@ -1,8 +1,8 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
- @import url('http://fonts.cdnfonts.com/css/pokemon-solid');
- @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -12,7 +12,7 @@ Fonts are separated by a | */
   --accent2-color: #3c5aa6;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "pokemon solid";
+  --heading-font: "bangers";
   --paragraph-font: "press start 2p", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -26,6 +26,133 @@ Fonts are separated by a | */
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
+.water{
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    width: 200px;
+    background-color: #6390f0;
+}
+.grass{
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    width: 200px;
+    background-color: #7ac74c;
+}
+.fire{
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    width: 200px;
+    background-color: #ee8130;
+}
+.electric{
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    width: 200px;
+    background-color: #f7d02c;
+}
+.psychic{
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    width: 200px;
+    background-color: #f95587;
+}
+.fighting{
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    width: 200px;
+    background-color: #c22e28;
+}
+.normal{
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    width: 200px;
+    background-color: #a8a77a;
+}
+.dragon{
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    width: 200px;
+    background-color: #6f35fc;
+}
+.flying{
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    width: 200px;
+    background-color: #a98ff3;
+}
+.ground{
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    width: 200px;
+    background-color: #e2bf65;
+}
+.rock{
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    width: 200px;
+    background-color: #b6a136;
+}
+.ghost{
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    width: 200px;
+    background-color: #735797;
+}
+.poison{
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    width: 200px;
+    background-color: #a33ea1;
+}
+.ice{
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 5px;
+    width: 200px;
+    background-color: #96d9d6;
+}
+
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
