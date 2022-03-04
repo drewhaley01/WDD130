@@ -71,7 +71,6 @@ header{
     grid-column: 6/10;
     grid-row: 6/7;
     padding: 6/10;
-    grid-row: 6/7;
     box-shadow: 5px 5px 10px #339989;
 }
 

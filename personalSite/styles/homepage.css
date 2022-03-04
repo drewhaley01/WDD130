@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+::content{width:1600px; margin: 0 auto;}
+header{
+    background-color: #2b2c28;
+    display: grid;
+    grid-template-columns: 200px auto;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    text-align: center;
+    color: #ffcb08;
+    text-decoration: none;
+    padding: 25px;
+    font-style: bold;
+}
+nav a:hover{
+    background-color: #3c5aa6;
+    color: #c7a008;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    width: 150px;
+}
+.icon{
+    width: 80px;
+    padding-bottom: 10px;
+    grid-template-columns: 1/2;
+    justify-content: left;
+    border-radius: 100px;
+}
+#logolink{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+body{
+    font-family: "Press Start 2p";
+    background-color: #2b2c28;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+.home-title{
+font-family: "Banger", "Rock Salt", "sans-serif";
+}
