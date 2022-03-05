@@ -41,11 +41,133 @@ nav{
 }
 body{
     font-family: "Press Start 2p";
-    background-color: #2b2c28;
+    background-color: white;
     font-size: 15px;
     margin: 0;
     padding: 0;
 }
-.home-title{
-font-family: "Banger", "Rock Salt", "sans-serif";
+p{
+    font-family: "Bangers", "Rock Salt", "sans-serif";
+    font-size: 22px;
+}
+p1{
+    font-family: "Bangers", "Rock Salt", "sans-serif";
+    font-size: 22px;
+    color: #f7d02c;
+}
+p2{
+    font-family: "Bangers", "Rock Salt", "sans-serif";
+    font-size: 22px;
+    color: #6390f0;
+}
+p3{
+    font-family: "Bangers", "Rock Salt", "sans-serif";
+    font-size: 22px;
+    color: #ffcb08;
+}
+p4{
+    font-family: "Bangers", "Rock Salt", "sans-serif";
+    font-size: 22px;
+    color: #3c5aa6;
+}
+.homeGrid{
+    display: grid;
+    grid-template-columns: repeat(20,1fr);
+}
+#spacer{
+    grid-row: 1/2;
+    background-color: white;
+    height: 50px;
+}
+iframe{
+    grid-column: 6/20;
+    grid-row: 2/6;
+    width: 100%;
+    height: 450px;
+    text-align: right;
+}
+.themeSong{
+    grid-column: 6/20;
+    grid-row: 6/8;
+    text-align: center;
+}
+.pokemonRed{
+    grid-column: 6/10;
+    grid-row: 9/11;
+    text-align: center;
+    background-color: #ee8130;
+}
+.redImg{
+    height: 50%;
+    width: 90%;
+}
+.redImg:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+}
+.pokemonBlue{
+    grid-column: 11/15;
+    grid-row: 9/11;
+    text-align: center;
+    background-color: #6390f0;
+}
+.blueImg{
+    height: 50%;
+    width: 90%;
+}
+.blueImg:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+}
+.pokemonYellow{
+    grid-column: 16/20;
+    grid-row: 9/11;
+    text-align: center;
+    background-color: #f7d02c;
+}
+.yellowImg{
+    height: 50%;
+    width: 90%;
+}
+.yellowImg:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+}
+.pokemonGames{
+    grid-column: 6/16;
+    grid-row: 11/15;
+    justify-content: center;
+    text-align: center;
+    background-color: #2b2c28;
+    margin-top: 20px;
+    color: #f7d02c;
+}
+.pokemonImg{
+    width: 100%;
+    height: 80%;
+    padding: 15px;
+    background-color: #2b2c28;
+}
+.msg{
+    grid-column: 16/20;
+    grid-row: 11/15;
+    margin-top: 20px;
+    padding: 25px;
+    padding-top: 50px;
+    background-color: #2b2c28;
+    color: #f7d02c;
+    flex-wrap: right;
+}
+.sidebar{
+    grid-column: 2/5;
+    grid-row: 2/15;
+    font-size: 25px;
+    border-right: 2px solid #3c5aa6;
+    display: block;
+    height: 100%;
+    padding-right: 10px;
+    text-align: left;
+}
+h5{
+    text-align: center;
 }

@@ -19,9 +19,6 @@ nav a{
 nav a:hover{
     background-color: #3c5aa6;
     color: #c7a008;
-    font-size: 16px;
-    transform: scale(1.1);
-    transition: all 200ms;
 }
 nav{
     display: flex;
