@@ -50,22 +50,22 @@ p{
     font-family: "Bangers", "Rock Salt", "sans-serif";
     font-size: 22px;
 }
-p1{
+.region{
     font-family: "Bangers", "Rock Salt", "sans-serif";
     font-size: 20px;
     color: #f7d02c;
 }
-p2{
+.professor{
     font-family: "Bangers", "Rock Salt", "sans-serif";
     font-size: 20px;
     color: #6390f0;
 }
-p3{
+.criminal{
     font-family: "Bangers", "Rock Salt", "sans-serif";
     font-size: 20px;
     color: #ffcb08;
 }
-p4{
+.legendary{
     font-family: "Bangers", "Rock Salt", "sans-serif";
     font-size: 20px;
     color: #3c5aa6;
@@ -88,6 +88,7 @@ iframe{
     box-shadow: 0px 0px 20px #3c5aa6;
     padding: 15px;
     background-color: #2b2c28;
+    justify-content: center;
 }
 .themeSong{
     grid-column: 10/28;
