@@ -197,6 +197,9 @@ footer{
     align-items: center;
 }
 footer .social img{
-    padding-top: 15px;
     width: 50px;
+}
+.logoFooter{
+    align-self: center;
+    width: 150px;
 }
