@@ -41,11 +41,12 @@ nav{
 }
 body{
     font-family: "Press Start 2p";
-    background-color: #2b2c28;
+    background-color: white;
     font-size: 15px;
     margin: 0;
     padding: 0;
 }
-.home-title{
-font-family: "Banger", "Rock Salt", "sans-serif";
+p{
+    font-family: "Bangers", "Rock Salt", "sans-serif";
+    font-size: 22px;
 }
