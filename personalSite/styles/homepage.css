@@ -173,11 +173,32 @@ iframe{
     font-size: 25px;
     border-right: 2px solid #3c5aa6;
     display: block;
-    height: 100%;
+    height: max-content;
     padding-right: 10px;
     text-align: left;
     line-height: 7px;
 }
 h5{
     text-align: center;
+}
+footer a{
+    color: #ffcb08;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #c7a008;
+    background-color: #3c5aa6;
+}
+
+footer{
+    background-color: #2b2c28;
+    padding: 25px 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .social img{
+    padding-top: 15px;
+    width: 50px;
 }
