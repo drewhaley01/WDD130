@@ -41,11 +41,35 @@ nav{
 }
 body{
     font-family: "Press Start 2p";
-    background-color: #2b2c28;
+    background-color: white;
     font-size: 15px;
     margin: 0;
     padding: 0;
 }
-.home-title{
-font-family: "Banger", "Rock Salt", "sans-serif";
+p{
+    font-family: "Bangers", "Rock Salt", "sans-serif";
+    font-size: 22px;
+}
+.homeGrid{
+    display: grid;
+    grid-template-columns: repeat(30,1fr);
+}
+footer a{
+    color: #ffcb08;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #c7a008;
+}
+footer{
+    background-color: #2b2c28;
+    padding: 25px 25px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .social img{
+    padding-top: 15px;
+    width: 50px;
 }
