@@ -50,9 +50,86 @@ p{
     font-family: "Bangers", "Rock Salt", "sans-serif";
     font-size: 22px;
 }
-.homeGrid{
+li{
+    font-family: "Bangers", "Rock Salt", "sans-serif";
+    font-size: 22px;
+}
+#homeGrid{
     display: grid;
     grid-template-columns: repeat(30,1fr);
+}
+.pokeRap{
+    grid-column: 2/28;
+    grid-row: 1/2;
+    display: flex;
+}
+iframe{
+    width: 450%;
+    height: 400px;
+    flex: left;
+}
+.msg{
+    flex: right;
+}
+.bulbasaur{
+    grid-column: 2/10;
+    grid-row: 2/3;
+}
+.charmander{
+    grid-column: 12/20;
+    grid-row: 2/3;
+}
+.squirtle{
+    grid-column: 22/30;
+    grid-row: 2/3;
+}
+.pikachu{
+    grid-column: 2/10;
+    grid-row: 3/4;
+}
+.ponyta{
+    grid-column: 12/20;
+    grid-row: 3/4;
+}
+.rhyhorn{
+    grid-column: 22/30;
+    grid-row: 3/4;
+}
+.gyarados{
+    grid-column: 2/10;
+    grid-row: 4/5;
+}
+.gengar{
+    grid-column: 12/20;
+    grid-row: 4/5;
+}
+.porygon{
+    grid-column: 22/30;
+    grid-row: 4/5;
+}
+.eevee{
+    grid-column: 2/10;
+    grid-row: 5/6;
+}
+.lapras{
+    grid-column: 12/20;
+    grid-row: 5/6;
+}
+.poliwrath{
+    grid-column: 22/30;
+    grid-row: 5/6;
+}
+.dragonite{
+    grid-column: 2/10;
+    grid-row: 6/7;
+}
+.snorlax{
+    grid-column: 12/20;
+    grid-row: 6/7;
+}
+.mewtwo{
+    grid-column: 22/30;
+    grid-row: 6/7;
 }
 footer a{
     color: #ffcb08;
@@ -63,13 +140,16 @@ footer a:hover{
 }
 footer{
     background-color: #2b2c28;
-    padding: 25px 25px;
-    margin-top: 25px;
+    padding: 25px 50px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 footer .social img{
-    padding-top: 15px;
     width: 50px;
+}
+.logoFooter{
+    align-self: center;
+    width: 150px;
 }
