@@ -58,78 +58,192 @@ li{
     display: grid;
     grid-template-columns: repeat(30,1fr);
 }
-.pokeRap{
-    grid-column: 2/28;
+#spacer{
     grid-row: 1/2;
-    display: flex;
+    background-color: white;
+    height: 50px;
+}
+#spacer2{
+    grid-row: 3/4;
+    background-color: white;
+    height: 50px;
+}
+.pokeRap{
+    grid-column: 21/30;
+    grid-row: 2/3;
+    background-color: #ffcb08;
+    padding: 15px;
+    border-radius: 5px;
 }
 iframe{
-    width: 450%;
+    grid-column: 2/20;
+    grid-row: 2/3;
+    width: 100%;
     height: 400px;
-    flex: left;
+    box-shadow: 0px 0px 20px #3c5aa6;
+    padding: 15px;
+    background-color: #2b2c28;
+    justify-content: center;
 }
-.msg{
-    flex: right;
+h1{
+    text-align: center;
+    color: #3c5aa6;
+}
+.description{
+    text-align: center;
+}
+.pokemonImg{
+    text-align: center;
 }
 .bulbasaur{
     grid-column: 2/10;
-    grid-row: 2/3;
+    grid-row: 4/5;
+    background: linear-gradient(to bottom right, #7ac74c 0%, #7ac74c 40%, #a33ea1, #a33ea1 100%);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
 }
 .charmander{
     grid-column: 12/20;
-    grid-row: 2/3;
+    grid-row: 4/5;
+    background-color: #ee8130;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
 }
 .squirtle{
     grid-column: 22/30;
-    grid-row: 2/3;
+    grid-row: 4/5;
+    background-color: #6390f0;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
 }
 .pikachu{
     grid-column: 2/10;
-    grid-row: 3/4;
+    grid-row: 5/6;
+    background-color: #f7d02c;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
 }
 .ponyta{
     grid-column: 12/20;
-    grid-row: 3/4;
+    grid-row: 5/6;
+    background-color: #ee8130;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
 }
 .rhyhorn{
     grid-column: 22/30;
-    grid-row: 3/4;
+    grid-row: 5/6;
+    background: linear-gradient(to bottom right, #e2bf65 0%, #e2bf65 40%, #b6a136, #b6a136 100%);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
 }
 .gyarados{
     grid-column: 2/10;
-    grid-row: 4/5;
+    grid-row: 6/7;
+    background: linear-gradient(to bottom right, #6390f0 0%, #6390f0 40%, #a98ff3, #a98ff3 100%);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
 }
 .gengar{
     grid-column: 12/20;
-    grid-row: 4/5;
+    grid-row: 6/7;
+    background: linear-gradient(to bottom right, #735797 0%, #735797 40%, #a33ea1, #a33ea1 100%);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
 }
 .porygon{
     grid-column: 22/30;
-    grid-row: 4/5;
+    grid-row: 6/7;
+    background-color: #a8a77a;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
 }
 .eevee{
     grid-column: 2/10;
-    grid-row: 5/6;
+    grid-row: 7/8;
+    background-color: #a8a77a;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
 }
 .lapras{
     grid-column: 12/20;
-    grid-row: 5/6;
+    grid-row: 7/8;
+    background: linear-gradient(to bottom right, #6390f0 0%, #6390f0 40%, #96d9d6, #96d9d6 100%);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
 }
 .poliwrath{
     grid-column: 22/30;
-    grid-row: 5/6;
+    grid-row: 7/8;
+    background: linear-gradient(to bottom right, #6390f0 0%, #6390f0 40%, #c22e28, #c22e28 100%);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
 }
 .dragonite{
     grid-column: 2/10;
-    grid-row: 6/7;
+    grid-row: 8/9;
+    background: linear-gradient(to bottom right, #6f35fc 0%, #6f35fc 40%, #a98ff3, #a98ff3 100%);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
 }
 .snorlax{
     grid-column: 12/20;
-    grid-row: 6/7;
+    grid-row: 8/9;
+    background-color: #a8a77a;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
 }
 .mewtwo{
     grid-column: 22/30;
-    grid-row: 6/7;
+    grid-row: 8/9;
+    background-color: #f95587;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
 }
 footer a{
     color: #ffcb08;
