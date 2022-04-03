@@ -312,6 +312,7 @@ p{
     grid-column: 5/27;
     grid-row: 18/19;
     width: 60%;
+    justify-items: center;
     text-align: center;
 }
 footer a{
